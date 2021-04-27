@@ -55,6 +55,20 @@
       </plugin>
 
       <plugin>
+    <groupId>com.simpligility.maven.plugins</groupId>
+    <artifactId>android-maven-plugin</artifactId>
+    <version>4.1.0</version>
+
+    <extensions>true</extensions>
+    <configuration>
+        <sign>
+            <debug>false</debug>
+        </sign>
+    </configuration>
+</plugin>
+
+
+      <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <version>1.6.7</version>
