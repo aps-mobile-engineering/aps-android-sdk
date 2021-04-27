@@ -15,19 +15,6 @@
 			</plugin>
 
       <plugin>
-    <groupId>com.simpligility.maven.plugins</groupId>
-    <artifactId>android-maven-plugin</artifactId>
-    <version>4.1.0</version>
-
-    <extensions>true</extensions>
-    <configuration>
-        <sign>
-            <debug>false</debug>
-        </sign>
-    </configuration>
-</plugin>
-
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
         <version>1.5</version>
@@ -78,6 +65,12 @@
       </plugins>
     </build>
 
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amazon.android</groupId>
@@ -117,5 +110,9 @@
   </distributionManagement>
 
 
-    <dependencies></dependencies>
+  <dependency>
+	    <groupId>com.github.simpligility</groupId>
+	    <artifactId>android-maven-plugin</artifactId>
+	    <version>4.4.3</version>
+	</dependency>
   </project>
