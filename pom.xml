@@ -7,7 +7,6 @@
   <groupId>com.amazon.android</groupId>
   <artifactId>aps-sdk</artifactId>
   <version>8.4.3</version>
-  <packaging>aar</packaging>
   <name>aps-sdk</name>
   <description>The Amazon Publisher Services SDK helps publishers increase revenue by enabling incremental bidding alongside your waterfall</description>
   <url>https://aps.amazon.com/aps/solutions-for-mobile-app-developers</url>
